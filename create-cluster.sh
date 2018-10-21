@@ -46,7 +46,6 @@ IFS="$OLD_IFS"
 # 172.17.0.1:32793 \
 # --cluster-replicas 1
 
-echo $arr_ip
 # 拼接后的ip
 str_ip=''
 for ip in ${arr_ip[@]}
